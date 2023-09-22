@@ -1,0 +1,113 @@
+#app{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+#box{
+    grid-area: 1/1;
+    height: 45dvh;
+    width: 45dvh;
+    display: grid;
+    grid-column: 1fr 1fr;
+    grid-row: 1fr 1fr;
+}
+#box1{
+    height: 20dvh;
+    width: 20dvh;
+    border-width: 1;
+    border-style: solid;
+    border-top-left-radius:  100%;
+    grid-area: 1/1;
+    background-color: rgb(179, 179, 0);
+}
+#box2{
+    height: 20dvh;
+    width: 20dvh;
+    border-width: 1;
+    border-style: solid;
+    border-top-right-radius: 100%;
+    grid-area: 1/2;
+    background-color: rgb(0, 0, 131);
+}
+#box3{
+    height: 20dvh;
+    width: 20dvh;
+    border-width: 1;
+    border-style: solid;
+    border-bottom-left-radius: 100%;
+    grid-area: 2/1;
+    background-color: rgb(168, 0, 0);
+}
+#box4{
+    height: 20dvh;
+    width: 20dvh;
+    border-width: 1;
+    border-style: solid;
+    border-bottom-right-radius: 100%;
+    grid-area: 2/2;
+    background-color: green;
+}
+#cont{
+    z-index: 10;
+    grid-area: 1/1;
+    background-color: transparent;
+}
+#center{
+    height: 15dvh;
+    width: 15dvh;
+    border-width: 1;
+    border-style: solid;
+    z-index: 100;
+    border-radius: 100%;
+    background-color: gray;
+    grid-area: 1/1;
+    margin-left: 13.6dvh;
+    margin-top: 13.6dvh;
+}
+#center2{
+    grid-area: 1/2;
+    height: 19dvh;
+    width: 19dvh;
+    border-width: 1;
+    border-style: solid;
+    z-index: 0;
+    border-radius: 100%;
+    grid-area: 1/1;
+    margin-left: 11.5dvh;
+    margin-top: 11.5dvh;
+    background-color: white;
+    
+}
+#center3{
+    height: 43.5dvh;
+    width: 43.5dvh;
+    border-width: 0dvh;
+    border-style: solid;
+    grid-area: 1/1;
+    background-color:  white;
+    z-index: 0;
+    clip-path: polygon(0 48.2%, 48% 48%, 48.2% 0, 51.4% 0, 52% 48%, 100% 48.2%, 100% 51.4%, 52% 52%, 51.4% 100%, 48.2% 100%, 48% 52%, 0 51.4%);
+}
+
+.lightUpYellow{
+background-image: -webkit-radial-gradient(#ffff4e,yellow, rgb(219, 219, 0));
+
+}
+.lightUpBlue{
+background-image: -webkit-radial-gradient(rgb(82, 82, 255), blue, rgb(0, 0, 117));
+
+}
+.lightUpRed{
+background-image: -webkit-radial-gradient(rgb(255, 78, 78),red, rgb(187, 0, 0));
+
+}
+.lightUpGreen{
+background-image: -webkit-radial-gradient(rgb(73, 255, 73), rgb(2, 255, 2), green);
+
+}
+
+#btn{
+    height: 5dvh;
+    width: 10dvh;
+}
+
