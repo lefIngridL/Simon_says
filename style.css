@@ -52,17 +52,29 @@
     grid-area: 1/1;
     background-color: transparent;
 }
+
+#input{
+    font-size: x-large;
+    grid-area: 1/1;
+    margin-left: 7.8svw;
+    margin-top: 19.4svh;
+    z-index: 2;
+    font-style: oblique;
+    width: 2svw;
+    height: 2svh;
+}
 #center{
     height: 15dvh;
     width: 15dvh;
     border-width: 1;
     border-style: solid;
-    z-index: 100;
+    z-index: 1;
     border-radius: 100%;
     background-color: gray;
     grid-area: 1/1;
     margin-left: 13.6dvh;
     margin-top: 13.6dvh;
+    
 }
 #center2{
     grid-area: 1/2;
